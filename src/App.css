@@ -1,0 +1,9 @@
+.columns {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.columns >* {
+    flex: 1;
+    flex-grow: 0;
+}
