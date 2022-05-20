@@ -1,0 +1,9 @@
+.button-container {
+    max-height: 50px;
+}
+
+.btn {
+    font-size: 20px;
+    padding: 2px 15px;
+    margin: 20px auto;
+}
