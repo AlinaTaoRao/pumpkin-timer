@@ -60,7 +60,7 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <div className="upper-btn-panel columns">
+      <div className="upper-btn-panel ">
         {upperBtns.map((btn, index) => (
           <Btn
             name={btn}
@@ -70,7 +70,7 @@ function App() {
         ))}
       </div>
       <TimeDisplay min={min} sec={sec} time={time} />
-      <div className="lower-btn-panel columns">
+      <div className="lower-btn-panel">
         <Btn
           name={lowerBtns[0]}
           handler={() => time && !start && handleStart()}
