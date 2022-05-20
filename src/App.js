@@ -7,11 +7,13 @@ import useInterval from "./components/custom-hooks/useInterval";
 
 import { useState, useEffect, useRef } from "react";
 
+
+/* way 1: simple display */
 function App() {
   // define control buttons
   const upperBtns = ["Focus", "Short Break", "Long Break"];
   const lowerBtns = ["Start", "Stop", "Reset"];
-  const originTimes = [25 * 60, 0.5 * 60, 20 * 60];
+  const originTimes = [30 * 60, 5 * 60, 20 * 60];
 
   // set state
   const [time, setTime] = useState(0);

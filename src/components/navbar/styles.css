@@ -2,11 +2,21 @@
     grid-area: navbar;
     background-color:  #ff9900;
     max-height: 90px;
+    
+}
 
-    border: 2px solid green ;
+.logo {
+    display: grid;
+    grid-template-columns: auto 1fr;
 }
 
 .pumpkin {
-    margin-left: 20px;
+    margin: 5px 15px;
     width: 80px;
+}
+
+.website-title {
+    margin: auto 2px;
+    padding-left: 5px;
+
 }
