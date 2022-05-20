@@ -8,7 +8,7 @@ export default function TimeDisplay({ min, sec, time }) {
     <div className="time-display">
       <div className="circle">
         <h3 className="time-count-down">
-          {min < 10 ? `0${min}` : min}:{sec < 10 ? `0${sec}` : sec}{" "}
+          {min < 10 ? `0${min}` : min}:{sec < 10 ? `0${sec}` : sec}
         </h3>
         {/* <h3> time is {time}</h3> */}
       </div>
